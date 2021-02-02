@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  background: #eee;
+  /* overflow: hidden; */
+  position: relative;
+}
